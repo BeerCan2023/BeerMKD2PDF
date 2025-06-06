@@ -2,7 +2,16 @@
 
 A simple and efficient tool to convert Markdown files to PDF with a user-friendly graphical interface.
 
-![BeerCan Logo](logo.png)
+<div align="center">
+  <img src="logo.png" alt="BeerCan Logo" width="50%">
+</div>
+
+## Application Preview
+
+<div align="center">
+  <img src="capture_app.jpg" alt="Markdown 2 PDF Application Interface" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; max-width: 80%;">
+  <p><em>Markdown 2 PDF - User Interface</em></p>
+</div>
 
 ## Features
 
