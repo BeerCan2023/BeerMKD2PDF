@@ -86,7 +86,9 @@ Developed by [BeerCan.fr](https://beercan.fr)
 
 Un outil simple et efficace pour convertir des fichiers Markdown en PDF avec une interface graphique conviviale.
 
-![Logo BeerCan](logo.png)
+<div align="center">
+  <img src="logo.png" alt="Logo BeerCan" width="50%">
+</div>
 
 ## Fonctionnalités
 
