@@ -1,5 +1,80 @@
 # Markdown 2 PDF
 
+A simple and efficient tool to convert Markdown files to PDF with a user-friendly graphical interface.
+
+![BeerCan Logo](logo.png)
+
+## Features
+
+- Convert a single Markdown file to PDF
+- Batch conversion of all Markdown files in a folder
+- Intuitive graphical interface
+- Support for Markdown tables
+- Elegant PDF layout
+
+## Requirements
+
+- Python 3.6 or higher
+- wkhtmltopdf (must be installed separately)
+
+## Installation
+
+1. Clone this repository:
+```bash
+git clone https://github.com/your-name/markdown-2-pdf.git
+cd markdown-2-pdf
+```
+
+2. Install Python dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Install wkhtmltopdf:
+   - Windows: [Download installer](https://wkhtmltopdf.org/downloads.html)
+   - Linux: `sudo apt-get install wkhtmltopdf`
+   - macOS: `brew install wkhtmltopdf`
+
+## Usage
+
+Launch the application:
+```bash
+python main.py
+```
+
+1. Click on "Select a file" or "Select a folder"
+2. Choose the Markdown file or folder containing Markdown files
+3. Click on "Convert to PDF"
+4. PDF files will be generated in the same location as the Markdown files
+
+## Examples
+
+### Table structure support
+
+The Markdown:
+```markdown
+| Name | Age | City |
+|------|-----|------|
+| John | 25 | Paris |
+| Mary | 30 | Lyon |
+```
+
+Will be correctly converted to a table in the generated PDF.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+Developed by [BeerCan.fr](https://beercan.fr)
+
+---
+
+# Version Française
+
+# Markdown 2 PDF
+
 Un outil simple et efficace pour convertir des fichiers Markdown en PDF avec une interface graphique conviviale.
 
 ![Logo BeerCan](logo.png)
